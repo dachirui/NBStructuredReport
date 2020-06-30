@@ -1,0 +1,2115 @@
+{
+  "patient_data": {
+    "patient_id": {
+      "value": "04_Neuroblastoma_4",
+      "type": "string"
+    },
+    "sex": {
+      "value": "Male",
+      "type": "string"
+    }
+  },
+  "diagnosis": {
+    "associated_symptoms": {
+      "diagnosis_date": {
+        "value": "2020-05-10T22:00:00.000Z",
+        "type": "date"
+      },
+      "age_at_diagnosis": {
+        "years": {
+          "value": 1,
+          "type": "number"
+        },
+        "months": {
+          "value": 2,
+          "type": "number"
+        },
+        "total_months": {
+          "value": 14,
+          "type": "number"
+        }
+      },
+      "first_symptoms_date": {
+        "value": "2020-05-10T22:00:00.000Z",
+        "type": "date"
+      },
+      "incidental_finding": {
+        "type": "boolean",
+        "yes": true,
+        "no": false,
+        "unknown": false
+      },
+      "lts": {
+        "intraspinal_neuroblastoma": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "opiate_treatment": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "vomiting": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "weight_loss": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": true
+        },
+        "respiratory_distress": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "hypertension": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "ivc_compresion": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "creatinine": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": true
+        },
+        "urine_output": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": true
+        },
+        "hidroureter": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "abnormal_liver_function": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "evidence_of_dic": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "platelets": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "bladder_bowel_dysfunction": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "large_tumor_volume": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "result": {
+          "value": "Yes",
+          "type": "string"
+        }
+      },
+      "other": {
+        "spinal_cord_syndrome": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "spinal_cord_compression": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "horners_syndrome": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "watery_diarrhoea": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "oms": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "others": {
+          "result": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false
+          },
+          "value": {
+            "type": "string",
+            "value": "adasdas"
+          }
+        },
+        "neurofibromatosis": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "genetic_syndrome": {
+          "result": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false
+          },
+          "value": {
+            "type": "string",
+            "value": "fsdff"
+          }
+        },
+        "others_diseases": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false
+          },
+          "value": {
+            "type": "string",
+            "value": null
+          }
+        }
+      }
+    },
+    "laboratory": {
+      "ldh": {
+        "evaluated": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "unit": {
+          "value": "IU/L",
+          "type": "string"
+        },
+        "upper_normal_value": {
+          "value": null,
+          "type": "number"
+        },
+        "ldh_result": {
+          "value": 13,
+          "type": "number"
+        },
+        "elevated": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        }
+      },
+      "pathology_tumor": {
+        "evaluated": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "biopsy_date": {
+          "value": "2020-04-26T22:00:00.000Z",
+          "type": "date"
+        },
+        "histology_type": {
+          "type": "string",
+          "value": "Ganglioneuroblastoma"
+        },
+        "grade_of_differentiation": {
+          "type": "string",
+          "value": "Poorly differentiated"
+        },
+        "mki": {
+          "type": "string",
+          "value": "High"
+        },
+        "type_of_sample": {
+          "type": "string",
+          "value": "Lymph nodes (distant)"
+        },
+        "biopsy_type": {
+          "type": "string",
+          "value": "Tru-cut/core needle biopsy"
+        }
+      },
+      "pathology_bone_marrow": {
+        "evaluated": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "date": {
+          "value": "2020-05-16T22:00:00.000Z",
+          "type": "date"
+        },
+        "aspirate": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "inconclusive": false
+          }
+        },
+        "trephine": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "inconclusive": false
+          }
+        },
+        "minimal_residual_disease": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "method": {
+            "type": "string",
+            "value": "qRT-PCR"
+          },
+          "result_immunocitology": {
+            "type": "string",
+            "value": null
+          },
+          "result_qrt_pcr": {
+            "th": {
+              "type": "string",
+              "value": "No"
+            },
+            "phox2b": {
+              "type": "string",
+              "value": "Yes"
+            }
+          }
+        }
+      },
+      "liquid_biopsy": {
+        "evaluated": {
+          "type": "boolean",
+          "yes": false,
+          "no": true
+        },
+        "minimal_residual_disease": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": false
+          },
+          "method": {
+            "type": "string",
+            "value": null
+          },
+          "result_qrt_pcr": {
+            "th": {
+              "type": "string",
+              "value": null
+            },
+            "phox2b": {
+              "type": "string",
+              "value": null
+            }
+          }
+        }
+      },
+      "molecular_studies": {
+        "evaluated": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "sample_type": {
+          "type": "string",
+          "value": "Primary tumor"
+        },
+        "status_mycn": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "method": {
+            "fish": {
+              "type": "boolean",
+              "value": false
+            },
+            "snpa": {
+              "type": "boolean",
+              "value": true
+            },
+            "pcr": {
+              "type": "boolean",
+              "value": false
+            },
+            "southern_blot": {
+              "type": "boolean",
+              "value": true
+            },
+            "mlpa": {
+              "type": "boolean",
+              "value": false
+            },
+            "acgh": {
+              "type": "boolean",
+              "value": false
+            },
+            "icwgs": {
+              "type": "boolean",
+              "value": false
+            },
+            "deepwgs": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "string",
+            "value": "Gain"
+          }
+        },
+        "status_alk": {
+          "amplification": {
+            "evaluated": {
+              "type": "boolean",
+              "yes": true,
+              "no": false
+            },
+            "method": {
+              "fish": {
+                "type": "boolean",
+                "value": false
+              },
+              "snpa": {
+                "type": "boolean",
+                "value": true
+              },
+              "pcr": {
+                "type": "boolean",
+                "value": false
+              },
+              "southern_blot": {
+                "type": "boolean",
+                "value": true
+              },
+              "mlpa": {
+                "type": "boolean",
+                "value": false
+              },
+              "acgh": {
+                "type": "boolean",
+                "value": false
+              },
+              "icwgs": {
+                "type": "boolean",
+                "value": false
+              },
+              "deepwgs": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            "status": {
+              "type": "string",
+              "value": "Not amplified"
+            }
+          },
+          "mutation": {
+            "evaluated": {
+              "type": "boolean",
+              "yes": true,
+              "no": false
+            },
+            "method": {
+              "sanger_seq": {
+                "type": "boolean",
+                "value": false
+              },
+              "ngs": {
+                "type": "boolean",
+                "value": false
+              },
+              "wes": {
+                "type": "boolean",
+                "value": true
+              },
+              "wgs": {
+                "type": "boolean",
+                "value": false
+              },
+              "ddpcr": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            "f1174": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "f1245": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "r1275": {
+              "type": "boolean",
+              "yes": false,
+              "no": true,
+              "no_result": false
+            },
+            "other": {
+              "type": "string",
+              "value": null
+            }
+          }
+        },
+        "ploidy": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "method": {
+            "karyotyping": {
+              "type": "boolean",
+              "value": true
+            },
+            "facs": {
+              "type": "boolean",
+              "value": false
+            },
+            "snpa": {
+              "type": "boolean",
+              "value": false
+            },
+            "acgh": {
+              "type": "boolean",
+              "value": false
+            },
+            "icwgs": {
+              "type": "boolean",
+              "value": false
+            },
+            "deepwgs": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "string",
+            "value": "Pentaploid"
+          }
+        },
+        "nca": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "method": {
+            "fish": {
+              "type": "boolean",
+              "value": true
+            },
+            "snpa": {
+              "type": "boolean",
+              "value": false
+            },
+            "acgh": {
+              "type": "boolean",
+              "value": false
+            },
+            "icwgs": {
+              "type": "boolean",
+              "value": false
+            },
+            "deepwgs": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "no_result": false
+          },
+          "number": {
+            "type": "number",
+            "value": 2
+          },
+          "alterations": [
+            {
+              "chromosome": {
+                "type": "string",
+                "value": "2"
+              },
+              "grain_loss": {
+                "type": "string",
+                "value": "Gain (+)"
+              }
+            },
+            {
+              "chromosome": {
+                "value": "3",
+                "type": "string"
+              },
+              "grain_loss": {
+                "value": "Loss (-)",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "sca": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "method": {
+            "fish": {
+              "type": "boolean",
+              "value": false
+            },
+            "snpa": {
+              "type": "boolean",
+              "value": false
+            },
+            "acgh": {
+              "type": "boolean",
+              "value": true
+            },
+            "icwgs": {
+              "type": "boolean",
+              "value": false
+            },
+            "deepwgs": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "no_result": false
+          },
+          "typical": {
+            "minus1p": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "plus1q": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "plus2p": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "minus3p": {
+              "type": "boolean",
+              "yes": false,
+              "no": true,
+              "no_result": false
+            },
+            "minus4p": {
+              "type": "boolean",
+              "yes": false,
+              "no": true,
+              "no_result": false
+            },
+            "plus11q": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "minus11q": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "plus17q": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            }
+          },
+          "atypical": {
+            "result": {
+              "type": "boolean",
+              "yes": true,
+              "no": false,
+              "no_result": false
+            },
+            "number": {
+              "type": "number",
+              "value": 3
+            },
+            "alterations": [
+              {
+                "chromosome": {
+                  "type": "string",
+                  "value": "4"
+                },
+                "p_q": {
+                  "type": "string",
+                  "value": "p"
+                },
+                "gain_loss": {
+                  "type": "string",
+                  "value": null
+                },
+                "grain_loss": {
+                  "value": "Gain (+)",
+                  "type": "string"
+                }
+              },
+              {
+                "chromosome": {
+                  "value": "2",
+                  "type": "string"
+                },
+                "p_q": {
+                  "value": "q",
+                  "type": "string"
+                },
+                "grain_loss": {
+                  "value": "Loss (-)",
+                  "type": "string"
+                }
+              },
+              {
+                "chromosome": {
+                  "value": "22",
+                  "type": "string"
+                },
+                "p_q": {
+                  "value": "p",
+                  "type": "string"
+                },
+                "grain_loss": {
+                  "value": "Gain (+)",
+                  "type": "string"
+                }
+              }
+            ]
+          }
+        },
+        "mutation_atrx": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "method": {
+            "snpa": {
+              "type": "boolean",
+              "value": false
+            },
+            "wgs": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "no_result": false
+          }
+        },
+        "tert": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "method": {
+            "fish": {
+              "type": "boolean",
+              "value": false
+            },
+            "snpa": {
+              "type": "boolean",
+              "value": false
+            },
+            "acgh": {
+              "type": "boolean",
+              "value": false
+            },
+            "icwgs": {
+              "type": "boolean",
+              "value": false
+            },
+            "deepwgs": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "no_result": false
+          }
+        },
+        "alt": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "method": {
+            "pna_fish": {
+              "type": "boolean",
+              "value": false
+            },
+            "pna_fish_pml": {
+              "type": "boolean",
+              "value": false
+            },
+            "circle_assay": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          "status": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "no_result": false
+          }
+        }
+      },
+      "gpoh_gene_expression_classifier": {
+        "evaluated": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "result": {
+          "type": "string",
+          "value": "Unfavorable"
+        }
+      },
+      "omics_dataset": {
+        "available": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "number_datasets": {
+          "type": "number",
+          "value": 2
+        },
+        "datasets": [
+          {
+            "analysis": {
+              "type": "string",
+              "value": "mRNA-sequencing"
+            },
+            "analysis_other": {
+              "type": "string",
+              "value": null
+            },
+            "method": {
+              "type": "string",
+              "value": "Agilent"
+            },
+            "method_other": {
+              "type": "string",
+              "value": null
+            },
+            "accesion_number": {
+              "result": {
+                "type": "boolean",
+                "yes": false,
+                "no": true
+              },
+              "number": {
+                "type": "string",
+                "value": null
+              },
+              "number_other": {
+                "type": "string",
+                "value": null
+              }
+            }
+          },
+          {
+            "analysis": {
+              "value": "Other"
+            },
+            "analysis_other": {
+              "value": "fas"
+            },
+            "method": {
+              "value": "Other"
+            },
+            "method_other": {
+              "value": "sfas"
+            },
+            "accesion_number": {
+              "result": {
+                "yes": true,
+                "no": false
+              },
+              "number": {
+                "value": "GSE120572"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "imaging": {
+      "radiology": {
+        "mri": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "value": "dfas",
+            "type": "string"
+          },
+          "date": {
+            "value": "2020-04-27T22:00:00.000Z",
+            "type": "date"
+          }
+        },
+        "ct": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "value": "sdfas",
+            "type": "string"
+          },
+          "date": {
+            "value": "2020-05-11T22:00:00.000Z",
+            "type": "date"
+          }
+        }
+      },
+      "nuclear_medicine": {
+        "mibg": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "not_available": false,
+            "missing": false
+          },
+          "technique": {
+            "value": "SPECT",
+            "type": "string"
+          },
+          "equipment": {
+            "value": "dgs",
+            "type": "string"
+          },
+          "dose_unit": {
+            "value": "mCi",
+            "type": "string"
+          },
+          "dose": {
+            "value": 23,
+            "type": "number"
+          },
+          "date": {
+            "value": "2020-04-30T22:00:00.000Z",
+            "type": "date"
+          },
+          "uptake": {
+            "primary_site": {
+              "type": "string",
+              "value": "Yes"
+            },
+            "skeleton": {
+              "type": "string",
+              "value": "No"
+            },
+            "soft_tissue": {
+              "type": "string",
+              "value": "No"
+            },
+            "skin": {
+              "type": "string",
+              "value": "No"
+            },
+            "liver": {
+              "type": "string",
+              "value": "No"
+            }
+          },
+          "score_siopen": {
+            "result": {
+              "type": "boolean",
+              "yes": true,
+              "no": false
+            },
+            "value": {
+              "type": "number",
+              "value": 4
+            }
+          },
+          "image_acquisition": {
+            "type": "boolean",
+            "image_4": true,
+            "image_24": false,
+            "other": false,
+            "unknown": false
+          },
+          "image_acquisition_other": {
+            "type": "number",
+            "value": null
+          },
+          "result": {
+            "value": null,
+            "type": "string"
+          }
+        },
+        "pet": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "value": "d",
+            "type": "string"
+          },
+          "date": {
+            "value": "2020-05-06T22:00:00.000Z",
+            "type": "date"
+          },
+          "fdg_18f": {
+            "value": 23,
+            "type": "number"
+          },
+          "uptake": {
+            "primary_site": {
+              "type": "string",
+              "value": "Yes"
+            },
+            "primary_site_level": {
+              "type": "string",
+              "value": "Mild (Standarized Uptake Value &le;2)"
+            },
+            "metastasis_skeleton": {
+              "type": "string",
+              "value": "Yes"
+            },
+            "metastasis_skeleton_level": {
+              "type": "string",
+              "value": "Moderate"
+            },
+            "metastasis_soft_tissue": {
+              "type": "string",
+              "value": "Yes"
+            },
+            "metastasis_soft_tissue_level": {
+              "type": "string",
+              "value": "High (&gt; liver)"
+            },
+            "metastasis_liver": {
+              "type": "string",
+              "value": "Yes"
+            }
+          },
+          "result": {
+            "value": null,
+            "type": "string"
+          }
+        }
+      },
+      "idrf": {
+        "ipsilateral_tumor_extension": {
+          "neck_chest": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "chest_abdomen": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "abdomen_pelvis": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "neck": {
+          "carotid_vertebral_artery_internal_jugular_vein": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": false,
+            "not_applicable": true
+          },
+          "base_of_skull": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": false,
+            "not_applicable": true
+          },
+          "trachea": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": false,
+            "not_applicable": true
+          }
+        },
+        "cervico_thoracic_junction": {
+          "brachial_plexus_roots": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": true,
+            "not_applicable": false
+          },
+          "subclavian_vessels_vertebral_carotid_artery": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "trachea": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "thorax": {
+          "aorta_major_branches": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "trachea_principal_bronchi": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": true,
+            "not_applicable": false
+          },
+          "lower_mediastinal_tumor": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "thoraco_abdominal": {
+          "aorta_vena_cava": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "abdomen_pelvis": {
+          "porta_hepatoduodenal_ligament": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "mesenteric_artery": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "celiac_axis_superior_mesenteric_artery": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "renal_pedicles": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "aorta_vena_cava": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "iliac_vessels": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          },
+          "sciatic_notch": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "intraspinal": {
+          "invasion": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "infiltration_adjacent_organs": {
+          "infiltration": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "unknown": false,
+            "not_applicable": false
+          }
+        },
+        "conditions": {
+          "multifocal_primary_tumors": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": true,
+            "not_applicable": false
+          },
+          "pleural_effusion": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": true,
+            "not_applicable": false
+          },
+          "ascites": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": true,
+            "not_applicable": false
+          }
+        },
+        "result": {
+          "value": "Yes",
+          "type": "string"
+        }
+      }
+    },
+    "staging": {
+      "primary_tumor_site": {
+        "abdominal_adrenal": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "abdominal_other": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "cervical": {
+          "type": "boolean",
+          "yes": false,
+          "no": true
+        },
+        "pelvic": {
+          "type": "boolean",
+          "yes": false,
+          "no": true
+        },
+        "thoracic": {
+          "type": "boolean",
+          "yes": false,
+          "no": true
+        },
+        "unknown": {
+          "type": "boolean",
+          "yes": false,
+          "no": true
+        },
+        "others": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "value": {
+            "type": "string",
+            "value": null
+          }
+        }
+      },
+      "metastasis": {
+        "result": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "bone": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "bone_marrow": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "liver": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "lymph_nodes": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "skin": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": true
+        },
+        "orbita": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "cns": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "lungs": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "other": {
+          "result": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false
+          },
+          "value": {
+            "type": "string",
+            "value": "Kidney"
+          }
+        }
+      },
+      "staging": {
+        "risk_group_inrg": {
+          "value": "Intermediate",
+          "type": "string"
+        },
+        "risk_group_database": {
+          "value": "Intermediate",
+          "type": "string"
+        },
+        "inss": {
+          "value": "2",
+          "type": "string"
+        },
+        "inrgss": {
+          "value": "Unknown",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "treatment_and_evaluation": {
+    "first_treatment": {
+      "type_of_treatment": {
+        "type": "string",
+        "value": "Chemotherapy and surgery"
+      },
+      "initiation_date": {
+        "type": "date",
+        "value": "2020-04-27T22:00:00.000Z"
+      },
+      "end_date": {
+        "type": "date",
+        "value": "2020-05-13T22:00:00.000Z"
+      },
+      "number_surgeries": {
+        "type": "number",
+        "value": "2"
+      },
+      "surgery_date": {
+        "type": "date",
+        "value": "2020-05-05T22:00:00.000Z"
+      },
+      "second_surgery_date": {
+        "type": "date",
+        "value": "2020-05-10T22:00:00.000Z"
+      },
+      "clinical_trial": {
+        "result": {
+          "type": "boolean",
+          "yes": true,
+          "no": false
+        },
+        "value": {
+          "type": "string",
+          "value": "NB97"
+        }
+      },
+      "lines_group": {
+        "type": "number",
+        "value": null
+      },
+      "treatment_received": {
+        "vp_carbo": {
+          "result": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "cado": {
+          "result": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "co": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "rapid_cojec": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": false
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "modified_n7": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": false
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "n4": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "n5": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "n6": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "n7": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          }
+        },
+        "others": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "number_of_cycles": {
+            "type": "number",
+            "value": null
+          },
+          "name": {
+            "type": "string",
+            "value": null
+          }
+        }
+      }
+    },
+    "treatment_evaluation": {
+      "treatment_finished": {
+        "result": {
+          "type": "boolean",
+          "yes": false,
+          "no": true
+        },
+        "reason": {
+          "value": {
+            "type": "string",
+            "value": "Toxicity"
+          },
+          "other": {
+            "type": "string",
+            "value": null
+          }
+        }
+      },
+      "date_of_evaluation": {
+        "type": "date",
+        "value": "2020-05-10T22:00:00.000Z"
+      },
+      "imaging": {
+        "mri": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "type": "string",
+            "value": "sfdas"
+          },
+          "date": {
+            "type": "date",
+            "value": "2020-05-10T22:00:00.000Z"
+          }
+        },
+        "ct": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "type": "string",
+            "value": null
+          },
+          "date": {
+            "type": "date",
+            "value": null
+          }
+        },
+        "mibg": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "type": "string",
+            "value": null
+          },
+          "date": {
+            "type": "date",
+            "value": null
+          },
+          "technique": {
+            "type": "string",
+            "value": null
+          },
+          "dose_unit": {
+            "value": null,
+            "type": "string"
+          },
+          "dose": {
+            "value": null,
+            "type": "number"
+          },
+          "image_acquisition": {
+            "type": "boolean",
+            "image_4": false,
+            "image_24": false,
+            "other": false,
+            "unknown": false
+          },
+          "image_acquisition_other": {
+            "type": "number",
+            "value": null
+          },
+          "uptake": {
+            "primary_tumor": {
+              "type": "string",
+              "value": null
+            },
+            "skeleton": {
+              "type": "string",
+              "value": null
+            },
+            "soft_tissue": {
+              "type": "string",
+              "value": null
+            },
+            "skin": {
+              "type": "string",
+              "value": null
+            },
+            "liver": {
+              "type": "string",
+              "value": null
+            }
+          },
+          "score_siopen": {
+            "result": {
+              "type": "boolean",
+              "yes": false,
+              "no": false
+            },
+            "value": {
+              "type": "number",
+              "value": null
+            }
+          }
+        },
+        "pet": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true,
+            "not_available": false,
+            "missing": false
+          },
+          "equipment": {
+            "value": null,
+            "type": "string"
+          },
+          "date": {
+            "value": null,
+            "type": "date"
+          },
+          "fdg_18f": {
+            "value": null,
+            "type": "number"
+          },
+          "uptake": {
+            "primary_tumor": {
+              "type": "string",
+              "value": null
+            },
+            "primary_tumor_level": {
+              "type": "string",
+              "value": null
+            },
+            "metastasis_skeleton": {
+              "type": "string",
+              "value": null
+            },
+            "metastasis_skeleton_level": {
+              "type": "string",
+              "value": null
+            },
+            "metastasis_soft_tissue": {
+              "type": "string",
+              "value": null
+            },
+            "metastasis_soft_tissue_level": {
+              "type": "string",
+              "value": null
+            },
+            "metastasis_liver": {
+              "type": "string",
+              "value": null
+            }
+          }
+        }
+      },
+      "response_evaluation": {
+        "primary_tumor": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "response": {
+            "type": "string",
+            "value": "Complete response"
+          }
+        },
+        "metastasis": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "not_applicable": false
+          },
+          "low_or_intermediate_risk": {
+            "bone": {
+              "type": "string",
+              "value": "Complete response"
+            },
+            "lymph_nodes": {
+              "type": "string",
+              "value": "Partial response"
+            },
+            "bone_marrow": {
+              "type": "string",
+              "value": "Stable disease"
+            },
+            "liver": {
+              "type": "string",
+              "value": "Stable disease"
+            },
+            "skin": {
+              "type": "string",
+              "value": "Progression disease"
+            },
+            "cns": {
+              "type": "string",
+              "value": "Stable disease"
+            },
+            "pleura_lung": {
+              "type": "string",
+              "value": "Partial response"
+            },
+            "other": {
+              "type": "string",
+              "value": "Unknown"
+            }
+          },
+          "high_risk": {
+            "bone": {
+              "evaluated": {
+                "type": "boolean",
+                "yes": false,
+                "no": false
+              },
+              "siopen": {
+                "type": "string",
+                "value": null
+              },
+              "pet_ct": {
+                "type": "string",
+                "value": null
+              }
+            },
+            "bone_marrow": {
+              "evaluated": {
+                "type": "boolean",
+                "yes": false,
+                "no": false
+              },
+              "aspirate": {
+                "evaluated": {
+                  "type": "boolean",
+                  "yes": false,
+                  "no": false
+                },
+                "result": {
+                  "type": "boolean",
+                  "positive": false,
+                  "negative": false
+                }
+              },
+              "trephine": {
+                "evaluated": {
+                  "type": "boolean",
+                  "yes": false,
+                  "no": false
+                },
+                "result": {
+                  "type": "boolean",
+                  "positive": false,
+                  "negative": false
+                }
+              }
+            },
+            "liver": {
+              "type": "string",
+              "value": null
+            },
+            "other": {
+              "type": "string",
+              "value": null
+            }
+          },
+          "conclusion": {
+            "type": "string",
+            "value": "Complete response"
+          }
+        },
+        "overall": {
+          "type": "string",
+          "value": "Partial response"
+        }
+      },
+      "minimal_residual_disease": {
+        "bone_marrow": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": true,
+            "no": false
+          },
+          "method": {
+            "type": "string",
+            "value": null
+          },
+          "response": {
+            "type": "string",
+            "value": "Complete"
+          },
+          "technique": {
+            "value": "Immnunocytology"
+          }
+        },
+        "peripheral_blood": {
+          "evaluated": {
+            "type": "boolean",
+            "yes": false,
+            "no": true
+          },
+          "method": {
+            "type": "string",
+            "value": null
+          },
+          "response": {
+            "type": "string",
+            "value": null
+          }
+        }
+      }
+    }
+  },
+  "follow_up": {
+    "tvd": {
+      "result": {
+        "type": "boolean",
+        "yes": true,
+        "no": false,
+        "unknown": false
+      }
+    },
+    "poor_responder": {
+      "result": {
+        "type": "boolean",
+        "yes": false,
+        "no": true,
+        "unknown": false
+      }
+    },
+    "date_end_total_treatment": {
+      "type": "date",
+      "value": "2020-05-10T22:00:00.000Z"
+    },
+    "progression": {
+      "result": {
+        "type": "boolean",
+        "yes": true,
+        "no": false
+      },
+      "date_first_progression": {
+        "type": "date",
+        "value": "2020-05-10T22:00:00.000Z"
+      },
+      "type_of_progression": {
+        "type": "string",
+        "value": "Distal"
+      },
+      "distant_site": {
+        "skeleton": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "bone_marrow": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "lymph_nodes": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "cns_metastasis": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "lung_metastasis": {
+          "type": "boolean",
+          "yes": false,
+          "no": true,
+          "unknown": false
+        },
+        "unknown": {
+          "type": "boolean",
+          "yes": true,
+          "no": false,
+          "unknown": false
+        },
+        "other": {
+          "result": {
+            "type": "boolean",
+            "yes": true,
+            "no": false,
+            "unknown": false
+          },
+          "value": {
+            "type": "string",
+            "value": "jnkj"
+          }
+        }
+      }
+    },
+    "relapse": {
+      "result": {
+        "type": "boolean",
+        "yes": true,
+        "no": false
+      },
+      "date_first_relapse": {
+        "type": "date",
+        "value": "2020-05-11T22:00:00.000Z"
+      },
+      "type_of_relapse": {
+        "type": "string",
+        "value": "Local"
+      },
+      "distant_site": {
+        "skeleton": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": false
+        },
+        "bone_marrow": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": false
+        },
+        "lymph_nodes": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": false
+        },
+        "cns_metastasis": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": false
+        },
+        "lung_metastasis": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": false
+        },
+        "unknown": {
+          "type": "boolean",
+          "yes": false,
+          "no": false,
+          "unknown": false
+        },
+        "other": {
+          "result": {
+            "type": "boolean",
+            "yes": false,
+            "no": false,
+            "unknown": false
+          },
+          "value": {
+            "type": "string",
+            "value": null
+          }
+        }
+      }
+    },
+    "regression": {
+      "result": {
+        "type": "boolean",
+        "yes": false,
+        "no": false
+      }
+    },
+    "second_malignancy": {
+      "result": {
+        "type": "boolean",
+        "yes": false,
+        "no": false,
+        "unknown": false
+      },
+      "type_of_tumor": {
+        "type": "string",
+        "value": null
+      },
+      "diagnosis_date": {
+        "type": "date",
+        "value": null
+      }
+    },
+    "current_status": {
+      "state": {
+        "type": "boolean",
+        "alive": false,
+        "death": true
+      },
+      "date_last_visit": {
+        "type": "date",
+        "value": null
+      },
+      "date_of_death": {
+        "type": "date",
+        "value": "2020-05-12T22:00:00.000Z"
+      },
+      "cause_of_death": {
+        "type": "string",
+        "value": "Disease"
+      }
+    }
+  }
+}
